@@ -1,0 +1,34 @@
+\documentclass{article}
+
+\usepackage{fancyhdr}
+\usepackage[letterpaper,hmargin = .8in]{geometry}
+\usepackage{amsthm}
+
+\newtheoremstyle{problem}
+{}{}
+{}{}
+{\bfseries\large}{}
+{0cm}{}
+
+\theoremstyle{problem}
+\newtheorem{prob}{Problem}
+
+\newcommand{\problem}{\begin{prob}\end{prob}}
+
+\begin{document}
+
+\pagestyle{fancy}
+\fancyhead[L]{MATH 1337}
+\fancyhead[C]{Homework 1}
+\fancyhead[R]{Mark Gross}
+\cfoot{}
+
+\setlength\parindent{0cm}
+
+\problem{}
+
+Hello world!
+
+\[ \sum_{i=1}^n n = \frac{n(n+1)}{2} \]
+
+\end{document}
